@@ -1,0 +1,21 @@
+
+
+.most-poupular-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* text-align: center; */
+}
+.section-wrapper button{
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -43px;
+    color: #fff;
+    font-weight: 500;
+}
+

@@ -1,0 +1,50 @@
+.hero-main{
+    background: url('../../assets/images/banner-bg.jpg') no-repeat top left/cover;
+    background-color:var(--color-dark);
+    color: var(--color-light);
+    border-radius:20px ;
+    padding:var(--padding-primary);
+}
+.hero-text{
+    max-width: 600px;
+}
+.hero-subtitle{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.hero-titel{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-weight: 900;
+}
+em{
+    font-style: normal;
+    color:var(--color-primary) ;
+}
+.main-button{
+    background-color: var(--color-primary);
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: var(--border-redius-primary);
+    color: var(--color-light);
+    font-size: 15px;
+    font-weight: 400;
+    transition: 0.3s
+}
+.main-button a{
+    text-decoration: none;
+    color: var(--color-light);
+}
+
+.main-button:hover {
+    background-color: var(--color-light);
+    
+}
+.main-button:hover a{
+    color:var(--color-primary)
+}
+
+
+
